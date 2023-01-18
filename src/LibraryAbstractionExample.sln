@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance.ConsoleApp", "Balance.Console\Balance.ConsoleApp.csproj", "{BDB3C306-7BE5-4D41-BB5F-07742ECCE4D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.ConsoleApp", "Plugin.Console\Plugin.ConsoleApp.csproj", "{BDB3C306-7BE5-4D41-BB5F-07742ECCE4D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces.Lib", "Interfaces.Lib\Interfaces.Lib.csproj", "{08A75336-0229-4228-A5A6-A157951505D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces.Lib", "Interfaces.Lib\Interfaces.Lib.csproj", "{08A75336-0229-4228-A5A6-A157951505D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusMode1.Lib", "BonusMode1.Lib\BonusMode1.Lib.csproj", "{934A94F8-B8C4-4369-AC55-9FE19A243DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mode1.Lib", "Mode1.Lib\Mode1.Lib.csproj", "{934A94F8-B8C4-4369-AC55-9FE19A243DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusMode2.Lib", "BonusMode2.Lib\BonusMode2.Lib.csproj", "{B23C2ADE-151E-4CF3-8DAD-F63BBA7E5AC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mode2.Lib", "Mode2.Lib\Mode2.Lib.csproj", "{B23C2ADE-151E-4CF3-8DAD-F63BBA7E5AC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

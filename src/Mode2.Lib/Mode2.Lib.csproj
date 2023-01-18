@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<LangVersion>latest</LangVersion>
+	<BaseOutputPath>H:\Repo\plugin_components\src\Plugin.Console\bin</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interfaces.Lib\Interfaces.Lib.csproj" />
+  </ItemGroup>
+
+</Project>

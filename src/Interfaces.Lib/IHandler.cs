@@ -1,7 +1,6 @@
-﻿namespace Interfaces.Lib
+﻿namespace Interfaces.Lib;
+
+public interface IHandler
 {
-  public interface IHandler
-  {
     void ProcessRequest();
-  }
 }

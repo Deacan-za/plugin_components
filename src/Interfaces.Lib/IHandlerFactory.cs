@@ -1,7 +1,6 @@
-﻿namespace Interfaces.Lib
+﻿namespace Interfaces.Lib;
+
+public interface IHandlerFactory
 {
-  public interface IHandlerFactory
-  {
-    IHandler CreateHandler(int bonusMode);
-  }
+    IHandler CreateHandler(int mode);
 }
