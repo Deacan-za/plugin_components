@@ -1,29 +1,9 @@
-# README #
+# Plug-in Architecture Example
 
-This README would normally document whatever steps are necessary to get your application up and running.
+C# Console application demostrating a simple implementation for loading dll's as plug-in's on start up. Although this is a console application, dependency injection is implemented using the ServiceCollection to illustrate how this would be wired up in a normal API.
 
-### What is this repository for? ###
+This implementation is config driven. On start registration of plug-in modes occurs by reading the supported modes in the cofiguration and looking for the dlls that support that mode. Once the plug-in has been founder, the handler belonging to this mode is created and stored in an in memory dictionary.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Requests are processed by getting the handler from the dictionary for a requested mode and calling the ProcessRequest method. 
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+This repository serves as example code for an up coming blog post.
