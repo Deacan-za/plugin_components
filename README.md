@@ -6,4 +6,5 @@ This implementation is config driven. On start up, registration of plug-in modes
 
 Requests are processed by getting the handler from the dictionary for a requested mode and calling the ProcessRequest method. 
 
-This repository serves as example code for an up coming blog post.
+This repository serves as example code for my blog post: 
+[Our Journey to a Segmented Monolith with Plug-ins and why?](https://www.linkedin.com/pulse/our-journey-segmented-monolith-plug-ins-andwhy-brandon-shaw)
